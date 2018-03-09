@@ -1,0 +1,84 @@
+#wrapper{
+outline:0px solid #FF0000;
+padding:0px; /* Отступ */
+margin:0 auto; /* Поле */
+background-color:#f4f4f4; /* Gray */
+/*width:1000px;*/
+margin:30px auto;
+}
+
+#button_add_file{
+outline:0px solid #FF8040;
+border-radius: 5px 5px;
+background-color:#59BEDC; /* Blue */
+margin-top:20px;
+margin-left:40px;
+height:35px;
+width:140px;
+text-align:center;
+font: bold 18px Taxoma;
+color:#ffffff; /* white text*/
+padding:2px auto 10px auto;
+}
+
+#button_import{
+outline:0px solid #FF8040;
+border-radius: 7px 7px;
+background-color:#5AB65A; /* Gren */
+color:#FDFDFD; /* white text*/
+height:35px;
+width:140px;
+margin-top:15px;
+margin-left:300px;
+text-align:center;
+font: bold 18px Taxoma;
+float:left;
+}
+
+#button_delete{
+outline:0px solid #FF8040;
+border-radius: 7px 7px;
+background-color:#D7514D; /* Red */
+color:#FDFDFD; /* white text*/
+height:35px;
+width:140px;
+margin-top:15px;
+margin-left:450px;
+text-align:center;
+font: bold 18px Taxoma;
+}
+
+#value{
+color:#00FFA9;
+font: 10px Taxoma;
+margin-left:40px;
+}
+#massage{
+outline:0px solid #FF8040;
+border-radius: 7px 7px;
+background-color:#DCECD5; /* Gray */
+color:#24A642; /* gren*/
+height:50px;
+width:500px;
+margin-top:25px;
+margin-left:40px;
+margin-bottom:40px;
+padding:5px;
+font: bold 16px Taxoma;
+}
+
+table, td{
+font: 12px Taxoma;
+border:0px solid #0000FF;
+border-collapse:collapse; /* Привычный одинарный вид таблички */
+text-align:center;
+padding:5px; /* отступы в ячейке */
+}
+
+th {
+font: bold 14px Taxoma;
+text-align:center;
+padding:5px; /* отступы в ячейке */
+vertical-align:top; /* Выравнивание содержимого ячеек */
+height:80px; /* высота ячейки */
+}
