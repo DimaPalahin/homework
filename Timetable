@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+<head>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="icon" href="image/favicon.ico" type="image/x-icon">
+ </head>
+
+
+<body>
+  <div id="wrapper">
+
+       <div id="button_add_file"> <a href="files/troleybusschedule.png" target="_blank" title="Додати файл"> Додати файл </a></div>
+       <div id="button_import"> <a href="files/troleybusschedule.png"> Імпортувати </a></div>
+       <div id="button_delete"> <a href="files/troleybusschedule.png"> Видалити </a></div>
+
+       <p>Завантаження</p>
+       <progress max="100" value="70">
+       <div id="value">70% заімпортовано</div>
+       </progress>
+
+       <div id="massage"> Файл заімпортовано вдало. 300 нових записів для 15 маршрутів додано</div>
+
+
+		<table>
+			<tr>
+				<th>Напрямок</th> <th>ЧЛФЗ "Аврора"</th> <th>Завод "Хімреактив"</th> <th>ДОК </th><th> Хлібозавод</th> <th>вул. Добровольського</th> <th>пл.700 річчя Черкас</th> <th>Університет</th><th>Depot center</th><th>вул. Новопречистенська</th><th>вул. Кривалівська</th>
+			</tr>
+			<tr>
+				<td>ЧЛФЗ "Аврора"- сан.Украина</td> <td>10:00</td> <td>10:05</td> <td>10:10</td> <td>10:15</td><td>10:20</td><td>10:25</td><td>10:30</td><td>10:35</td><td>10:40</td><td>10:45</td>
+			</tr>
+			<tr>
+				<td>сан.Украина-ЧЛФЗ "Аврора"- </td> <td>10:00</td> <td>10:05</td> <td>10:10</td> <td>10:15</td><td>10:20</td><td>10:25</td><td>10:30</td><td>10:35</td><td>10:40</td><td>10:45</td>
+			</tr>
+		</table>
+
+
+
+ </div>
+</body>
+
+</html>
